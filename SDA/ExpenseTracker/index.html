@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1><i class="fas fa-wallet"></i> Expense Tracker</h1>
+      <div class="total-expenses">
+        <span>Total: $<span id="total">0</span></span>
+        <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+      </div>
+    </header>
+
+    <!-- Budget Section -->
+    <section class="budget-section">
+      <h2><i class="fas fa-chart-line"></i> Budget</h2>
+      <input type="number" id="budget" placeholder="Set Budget">
+      <button onclick="setBudget()">Set Budget</button>
+      <div class="budget-progress">
+        <div id="progress-bar"></div>
+      </div>
+      <span id="budget-status"></span>
+    </section>
+
+    <!-- Input Section -->
+    <section class="input-section">
+      <input type="number" id="amount" placeholder="Amount" required>
+      <select id="category">
+        <option value="food"><i class="fas fa-utensils"></i> Food</option>
+        <option value="transport"><i class="fas fa-bus"></i> Transport</option>
+        <option value="entertainment"><i class="fas fa-film"></i> Entertainment</option>
+      </select>
+      <input type="text" id="new-category" placeholder="Add New Category">
+      <button onclick="addCategory()"><i class="fas fa-plus"></i> Add Category</button>
+      <input type="date" id="date" required>
+      <input type="text" id="description" placeholder="Description">
+      <button onclick="addExpense()"><i class="fas fa-plus"></i> Add Expense</button>
+    </section>
+
+    <!-- Search Section -->
+    <section class="search-section">
+      <h2><i class="fas fa-search"></i> Search Expenses</h2>
+      <input type="text" id="search" placeholder="Search by description or category">
+      <button onclick="searchExpenses()">Search</button>
+    </section>
+
+    <!-- Expense List -->
+    <section class="expense-list">
+      <h2><i class="fas fa-list"></i> Expenses</h2>
+      <table id="expense-table">
+        <thead>
+          <tr>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be added dynamically -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Charts Section -->
+    <section class="charts-section">
+      <h2><i class="fas fa-chart-pie"></i> Spending Breakdown</h2>
+      <div class="chart-container">
+        <canvas id="expense-chart"></canvas>
+      </div>
+    </section>
+  </div>
+
+  <div class="credits">
+    <p>Made by Waleed & Shawaiz</p>
+  </div>
+
+</body>
+</html>

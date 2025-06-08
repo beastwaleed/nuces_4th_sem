@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Waleed\4th Sem\Design Analysis & Algorithm\Hearts Game\Source.cpp(89,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Waleed\4th Sem\Design Analysis & Algorithm\Hearts Game\Source.cpp(241,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Hearts Game.vcxproj -> D:\Waleed\4th Sem\Design Analysis & Algorithm\Hearts Game\x64\Debug\Hearts Game.exe

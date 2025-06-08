@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Page-1" id="Bfz6R7q3bduobYDxRAK6">
+    <mxGraphModel dx="1869" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="40" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-2" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="500" as="sourcePoint" />
+            <mxPoint x="-13" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+          <mxGeometry x="275" y="60" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-4" value="&lt;font&gt;Expense Tracker System&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#000000,#000000);fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="278" y="65" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-5" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="500" as="sourcePoint" />
+            <mxPoint x="387" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="232" as="sourcePoint" />
+            <mxPoint x="-8" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-9" value="&lt;div&gt;Display Current Original Values&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-15" y="200" width="245" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="183.55" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="184" />
+              <mxPoint x="470" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-16" value="Fetch Original Expense" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="390" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="323.55" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="324" />
+              <mxPoint x="470" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMMkLhI3OYzGAkFnFPez-27" value="Validate &amp;amp; Update Expense" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="390" y="290" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6" y="146" as="sourcePoint" />
+            <mxPoint x="384" y="146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-2" value="editExpense(Id, Amount, Category, date)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-20" y="120" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5" y="276" as="sourcePoint" />
+            <mxPoint x="385" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-5" value="Confirm Changes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-89" y="250" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="389.55" as="sourcePoint" />
+            <mxPoint x="390" y="416" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="390" />
+              <mxPoint x="470" y="416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-7" value="Recalculate Budget Impact" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-8" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="443" as="sourcePoint" />
+            <mxPoint x="-8" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-9" value="&lt;div&gt;Success Message &quot;Expense Updated&quot;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-15" y="411" width="295" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-10" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="484" as="sourcePoint" />
+            <mxPoint x="-9" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8gbKp-OcMR1W4huVyyL-11" value="Updated Dashboard in real-time" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-15" y="452" width="255" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

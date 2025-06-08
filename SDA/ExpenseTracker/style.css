@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+header h1 i {
+  margin-right: 10px;
+}
+
+.total-expenses {
+  font-size: 18px;
+
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Budget Section */
+.budget-section {
+  margin-bottom: 20px;
+}
+
+.budget-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.budget-section input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.budget-section button {
+  padding: 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.budget-progress {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 0;
+  transition: width 0.3s;
+}
+
+#budget-status {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-section input, .input-section select, .input-section button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.input-section button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.input-section button:hover {
+  background-color: #45a049;
+}
+
+/* Search Section */
+.search-section {
+  margin-bottom: 20px;
+}
+
+.search-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.search-section input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-section button {
+  padding: 10px;
+  border: none;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Expense List */
+.expense-list {
+  margin-bottom: 20px;
+}
+
+.expense-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.expense-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-list th, .expense-list td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.expense-list td button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.expense-list td button.edit {
+  background-color: #2196F3;
+  color: white;
+}
+
+.expense-list td button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Charts Section */
+.charts-section {
+  margin-top: 20px;
+}
+
+.chart-container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.credits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
